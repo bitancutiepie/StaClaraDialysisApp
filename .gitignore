@@ -1,2 +1,14 @@
-/target/
-*.bak
+# Rust build artifacts
+target/
+
+# Built executables & installers
+dist/
+
+# Private docs, local AI skills & generated screenshots
+docs/
+.agents/
+screenshots/
+
+# Generated Excel backups & CSV reports
+*.bak.xlsx
+daily_ending_report_*.csv
