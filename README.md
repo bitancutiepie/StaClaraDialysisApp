@@ -41,6 +41,10 @@ A fast, offline-ready desktop application built for **Sta. Clara Dialysis Center
 > [!TIP]
 > Every important action—such as confirming an order, recording a delivery, or saving to Excel—shows a confirmation pop-up first to prevent accidental changes.
 
+## Why Rust? (Quick Trivia)
+
+Most software tools force a trade-off: either raw speed with "sharp edges" (where a small mistake can crash the app or corrupt data), or safety that slows everything down. **Rust** is different—instead of taking away the kitchen knives to prevent accidents, it builds strict safety rules around them. For a clinic inventory app, that means **fast, lightweight desktop performance** with **built-in protection against accidental data errors**—all with zero internet or cloud dependencies.
+
 ## Getting Started
 
 Double-click **`run.bat`** in the project folder, or run it from your terminal:
