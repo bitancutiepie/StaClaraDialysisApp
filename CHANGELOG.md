@@ -14,3 +14,4 @@
 12. **[2026-11-25] Built-In UI Debug Helper (F12):** Added an optional overlay and double-click tag copier to make reporting layout issues easy.
 13. **[2026-11-25] Safety Confirmation Pop-Ups:** Added confirmation dialogs before saving to Excel, resetting data, or recording stock deliveries, requisitions, and wastage.
 14. **[2026-11-25] Formal Windows Installer:** Packaged the app into a classic **Next → Next → Install** wizard (`StaClaraDialysis-Setup.exe`) with Desktop shortcut and uninstaller.
+15. **[2026-11-26] SAD Part 2 Documentation:** Cleaned up the Part 2 project document, filled Chapters 1–7 in plain language for Sta. Clara Dialysis Center, and embedded 7 system diagrams and 8 app screenshots.
