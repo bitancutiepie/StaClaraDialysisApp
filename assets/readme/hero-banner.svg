@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="220">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="50%" stop-color="#DBEAFE"/>
+      <stop offset="100%" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="220" rx="18" fill="url(#bgGrad)" stroke="#BFDBFE" stroke-width="2"/>
+
+  <!-- Subtle decorative circles -->
+  <circle cx="820" cy="48" r="55" fill="#93C5FD" opacity="0.22">
+    <animate attributeName="r" values="55;62;55" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="70" cy="175" r="40" fill="#7DD3FC" opacity="0.22">
+    <animate attributeName="r" values="40;46;40" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Animated ECG Pulse Line -->
+  <polyline
+    fill="none"
+    stroke="#2563EB"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-dasharray="900"
+    stroke-dashoffset="900"
+    opacity="0.35"
+    points="40,165 210,165 230,145 245,185 262,120 278,192 294,165 620,165 640,148 655,182 670,130 685,186 700,165 860,165">
+    <animate attributeName="stroke-dashoffset" from="900" to="0" dur="3.5s" repeatCount="indefinite"/>
+  </polyline>
+
+  <!-- Title & Subtitle -->
+  <text x="450" y="88" text-anchor="middle" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="30" font-weight="800" fill="#0F172A" letter-spacing="1.2">
+    STA. CLARA DIALYSIS CENTER, INC.
+  </text>
+  <text x="450" y="120" text-anchor="middle" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#2563EB" letter-spacing="2">
+    PURE RUST INVENTORY &amp; DAILY ENDING BALANCE SYSTEM
+  </text>
+
+  <!-- Pill Badges -->
+  <rect x="275" y="138" width="105" height="26" rx="13" fill="url(#accentGrad)"/>
+  <text x="327" y="155" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF">Rust + egui</text>
+
+  <rect x="392" y="138" width="116" height="26" rx="13" fill="#FFFFFF" stroke="#93C5FD" stroke-width="1.5"/>
+  <text x="450" y="155" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1E293B">wgpu GPU</text>
+
+  <rect x="520" y="138" width="110" height="26" rx="13" fill="#FFFFFF" stroke="#93C5FD" stroke-width="1.5"/>
+  <text x="575" y="155" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1E293B">.xlsx Sync</text>
+</svg>

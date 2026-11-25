@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 170" width="100%" height="170">
+  <rect width="900" height="170" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Step 1: Stock-In -->
+  <rect x="30" y="38" width="180" height="94" rx="12" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <text x="120" y="74" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#2563EB">1. Stock-In</text>
+  <text x="120" y="96" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" fill="#64748B">Helande Kidney Care</text>
+  <text x="120" y="114" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#94A3B8">Box / Pcs + Expiry</text>
+
+  <!-- Connector 1 -> 2 -->
+  <line x1="215" y1="85" x2="255" y2="85" stroke="#93C5FD" stroke-width="2.5" stroke-dasharray="4 4"/>
+  <circle cx="215" cy="85" r="4" fill="#2563EB">
+    <animate attributeName="cx" values="215;255;215" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Step 2: Kiosk Order -->
+  <rect x="260" y="38" width="180" height="94" rx="12" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <text x="350" y="74" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#2563EB">2. Kiosk Order</text>
+  <text x="350" y="96" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" fill="#64748B">1-Click Treatment Kit</text>
+  <text x="350" y="114" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#94A3B8">Whse -&gt; TA Transfer</text>
+
+  <!-- Connector 2 -> 3 -->
+  <line x1="445" y1="85" x2="485" y2="85" stroke="#93C5FD" stroke-width="2.5" stroke-dasharray="4 4"/>
+  <circle cx="445" cy="85" r="4" fill="#2563EB">
+    <animate attributeName="cx" values="445;485;445" dur="2.2s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Step 3: Safety & Alerts -->
+  <rect x="490" y="38" width="180" height="94" rx="12" fill="#FFFFFF" stroke="#FECACA" stroke-width="1.5"/>
+  <text x="580" y="74" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#B91C1C">3. Safety Alerts</text>
+  <text x="580" y="96" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" fill="#64748B">Dangerous (&lt;150 pcs)</text>
+  <text x="580" y="114" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#94A3B8">Near Expiry (&lt;60d)</text>
+
+  <!-- Connector 3 -> 4 -->
+  <line x1="675" y1="85" x2="715" y2="85" stroke="#93C5FD" stroke-width="2.5" stroke-dasharray="4 4"/>
+  <circle cx="675" cy="85" r="4" fill="#2563EB">
+    <animate attributeName="cx" values="675;715;675" dur="2.2s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Step 4: Excel Sync -->
+  <rect x="720" y="38" width="150" height="94" rx="12" fill="#FFFFFF" stroke="#BBF7D0" stroke-width="1.5"/>
+  <text x="795" y="74" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#15803D">4. Excel Sync</text>
+  <text x="795" y="96" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" fill="#64748B">Daily Ending Report</text>
+  <text x="795" y="114" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#94A3B8">In-Place .xlsx + .bak</text>
+</svg>
