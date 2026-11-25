@@ -50,3 +50,19 @@ Double-click **`run.bat`** in the project folder, or run it from your terminal:
 ```
 
 If you have the Windows installer (`StaClaraDialysis-Setup.exe`), simply double-click it and follow the **Next → Next → Install** wizard.
+
+---
+
+## Screenshots (v1 — Design as of Nov 25, 2026)
+
+| Home Workspace | Dashboard & Safety Alerts |
+| :---: | :---: |
+| <img src="assets/readme/v1/01_home.png" width="420" alt="v1 Home Workspace" /> | <img src="assets/readme/v1/02_dashboard.png" width="420" alt="v1 Dashboard" /> |
+
+| Kiosk Order | Stock-In |
+| :---: | :---: |
+| <img src="assets/readme/v1/03_kiosk_order.png" width="420" alt="v1 Kiosk Order" /> | <img src="assets/readme/v1/04_stock_in.png" width="420" alt="v1 Stock-In" /> |
+
+<p align="center">
+  <img src="assets/readme/v1/08_excel_modal.png" width="640" alt="v1 Interactive Excel View" />
+</p>
